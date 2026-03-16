@@ -1,5 +1,5 @@
 module "vpc" {
-  source                                                            = "./modules/vpc"
+  source                                                            = "terraform-aws-modules/vpc/aws"
   amazon_side_asn                                                   = var.amazon_side_asn
   azs                                                               = var.azs
   cidr                                                              = var.cidr
